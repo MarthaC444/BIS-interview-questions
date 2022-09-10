@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#playButton {
+  width: 150px;
+  height: 92.7px;
+  border-radius: 0;
+  border: solid 1px #939393;
+  font-size: 1rem;
+}
+
+#playButton:hover {
+  background-color: #a6f4ff;
+  border-color: #00b4cc;
+}
+
+#playButton:active {
+  background-color: #00b4cc;
+}
+
+.special-font {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
